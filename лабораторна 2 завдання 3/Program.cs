@@ -31,7 +31,7 @@ namespace лабораторна_2_завдання_3
 
             double distance=0.0;
 
-            switch(name)
+            switch(name.ToUpper())
             {
                 case "AB":
                 case "BA":
@@ -52,7 +52,7 @@ namespace лабораторна_2_завдання_3
                     Console.WriteLine("Невірна назва відрізка");
                     break;
             }
-            Console.WriteLine($"Довжина відрізка {name}={distance}");
+            Console.WriteLine($"Довжина відрізка {name.ToUpper()}={distance}");
             Console.ReadKey();
             
 
